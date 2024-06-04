@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dad7cd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #a3b18a;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #22352c;
+}
+
+.converter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.converter input, .converter select, .converter button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.converter button {
+    background-color: #588157;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.converter button:hover {
+    background-color: #3a5a40;
+}
+
+#output {
+    margin-top: 25px;
+    font-size: 20px;
+    color: #333;
+}
